@@ -44,6 +44,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Life Ledger · 生命账簿" }],
     title: "Life Ledger — your life is a ledger",
     description:
       "Time is the only currency you cannot earn back. Every decision is an entry. The total is your meaning.",
@@ -54,6 +55,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Life Ledger — your life is a ledger.",
     description: "A mirror, a simulator, a quiet system. For looking honestly at how a life is spent.",
